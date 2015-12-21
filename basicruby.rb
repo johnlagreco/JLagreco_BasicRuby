@@ -1,6 +1,3 @@
-# Create a function that takes a string and 
-# adds the phrase "Only in America!" to the end of it
-
 # Create a function to find the maximum value in 
 # an array of numbers. 
 # For instance: [100,10,-1000] should return 100.
@@ -18,8 +15,33 @@
 # ruby {toyota: "Prius", tesla: "Model S"}
 
 
-def notsoFun(x)
+def itsFun(x)
 	x + "Only in America!"
 end
-puts notsoFun("Trump is the nominee? ")
+puts itsFun("Trump is the nominee? ")
+
+
+
+
+arr = [56, -78, 567, 9786, 23]
+def notsoFun(arr)
+	bigNum = arr[0]
+	arr.each do |i|
+		if i > bigNum
+		    bigNum = i
+		end
+	end
+	return bigNum
+end
+puts notsoFun(arr)
+
+
+
+
+arr1 = [:ny, :boston] 
+arr2 = ["yankees","redsocks"]
+
+my_hash = {}
+my_hash[arr1[0]] = arr2[0]
+my_hash[arr1[1]] = arr2[1]
 
