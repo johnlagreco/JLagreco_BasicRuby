@@ -41,7 +41,7 @@ puts notsoFun(arr)
 arr1 = [:ny, :boston] 
 arr2 = ["yankees","redsocks"]
 
-my_hash = {}
-my_hash[arr1[0]] = arr2[0]
-my_hash[arr1[1]] = arr2[1]
+def bBall(arr1, arr2)
+end
 
+puts bBall
