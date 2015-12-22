@@ -38,10 +38,16 @@ puts notsoFun(arr)
 
 
 
-arr1 = [:ny, :boston] 
-arr2 = ["yankees","redsocks"]
+state = [:ny, :boston] 
+teams = ["yankees", "redsocks"]
 
 def bBall(arr1, arr2)
+	my_hash = {}
+	for i in 0..arr1.length
+	my_hash[arr1[i]] = arr2[i]
+	end
+puts my_hash	
 end
 
-puts bBall
+bBall(state, teams)
+
