@@ -1,6 +1,6 @@
-Here are 3 ruby challenges
+Here are 3 basic ruby challenges:
 
-Create a function that takes a string and adds the phrase "Only in America!" to the end of it
+Create a function that takes a string and adds the phrase "Only in America!" to the end of it.
 
 Create a function to find the maximum value in an array of numbers. For instance: [100,10,-1000] should return 100.
 
